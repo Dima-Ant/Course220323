@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+div.wrapper{
+    padding: 12px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.logo-img{
+    display: flex;
+    width: 163px;
+    float: left;
+    
+}
+.nav-header{
+    display: inline-flex;
+    width: 100%;
+    padding-top: 10px;
+}
+.nav-header a{
+    display: flex;
+    margin-right: 24px;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+}
+.nav-button{
+    float: right;
+    margin-left: 8px;
+    margin-right: 0px;
+    border: 1px solid rgba(34, 3, 228, 1);
+    height: 45px;
+    width: 128px;
+    background-color: white;
+    color: #2203E4;
+}
+.first{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 122px;
+    align-items: center;
+}
+.first-block{
+    margin-left: 216px;
+    width: 611px;
+}
+.first-block h1{
+    font-size: 47px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+.first-block p{
+    font-size: 16px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+.big-phone{
+    margin-left: 68px;
+}
+.btn1{
+    background-color: rgba(0, 98, 255, 1);
+    width: 94px;
+    height: 39px;
+    color:#fff;
+    font-size: 16px;
+    border: none;
+    margin-right: 24px;
+}
+.btn2{
+    background-color: #fff;
+    width: 135px;
+    height: 39px;
+    color:rgba(87, 87, 87, 1);
+    font-size: 16px;
+    border: 1px solid rgba(87, 87, 87, 1);
+}
+.second{
+    width: 100%;
+    margin-top: 119px;
+    margin-bottom: 143px;
+}
+.authors{
+    text-align: center;
+    padding-bottom: 36px;
+}
+.authors h1{
+    font-size: 36px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+.authors p{
+    font-size: 16px;
+    width: 100%;
+    color: rgb(87, 87, 87, 1);
+}
+.authors-flex{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+.authors-photo{
+    display: flex;
+    width: auto;
+    margin: 12.5px 34px 12.5px 131px;
+}
+.text-block h2{
+    font-size: 27px;
+    width: auto;
+    margin: 0 auto;
+}
+.text-block h3{
+    font-size: 21px;
+    color: rgb(87, 87, 87, 1);
+    width: auto;
+    margin: 0 auto;
+}
+.text-block p{
+    font-size: 16px;
+    color: rgb(87, 87, 87, 1);
+    width: auto;
+    margin-top: 12px;
+    margin-right: 112px;
+}
+.text-block img{
+    width: auto;
+    margin: 0 auto;
+    margin-right: 19px;
+}
+.third{
+    padding-top: 71px;
+    padding-bottom: 71px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 98, 255, 1);
+}
+.for-who h1{
+    font-size: 36px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    color: #fff;
+    text-align: center;
+}
+.for-who p{
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    padding-bottom: 68px;
+    text-align: center;
+}
+.for-blocks{
+    display: inline-flex;
+    margin-left: 125px;
+    flex-wrap: wrap;
+    gap: 46px 48px;
+    margin-bottom: 64px;
+}
+.for-img{
+    display: flex;
+    width: auto;
+
+}
+.for-text-block{
+    /*align-items: center;*/
+    width: 451px;
+    height: 97px;
+    margin: 0 auto;
+    margin-left: 34px;
+}
+.for-text-block h3{
+    font-size: 21px;
+    color: white;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.for-text-block p{
+    font-size: 16px;
+    color: white;
+    width: auto;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+.btn3{
+    border: 1px solid rgba(34, 3, 228, 1);
+    background-color: white;
+    font-size: 16px;
+    color: #2203E4;
+    width: 99px;
+    height: 39px;
+    display: block;
+    margin: 0 auto;
+}
+.fourth{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+.check-text-block h1{
+    text-align: center;
+    font-size: 36px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.check-text-block p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(87, 87, 87, 1);
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+.check-flex{
+    display: inline-block;
+    margin-left: 205px;
+    align-items: center;
+}
+.check-flex h4{
+    font-size: 21px;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 12px;
+
+}
+.check-flex p{
+    font-size: 16;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
